@@ -1,5 +1,6 @@
 # lua-math-extension-module
 A lua module including functions meant to extend the math library
+Note: Uses at least Lua 5.3
 
 How to add to Lua:
 1. Move the file into your LUA_PATH
@@ -14,3 +15,10 @@ A list of the functions defined here:
   Takes two int values, n being larger than r, and returns the permutation of the two of them
 * comb(n, r)
   Does the same as perm, but returns the combination of the two values
+
+Here is an example of using the module in your lua programs:
+
+  mathext = require "mathext"
+  
+  local num = 67.8
+  print(mathext.round(67.8))    --> 68
