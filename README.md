@@ -22,5 +22,5 @@ Here is an example of using the module in your lua programs:
   mathext = require "mathext"
   
   local num = 67.8
-  print(mathext.round(67.8))    --> 68
+  print(mathext.round(num))    --> 68
   ```
