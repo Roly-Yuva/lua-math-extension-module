@@ -4,7 +4,7 @@ Note: Uses at least Lua 5.3
 
 How to add to Lua:
 1. Move the file into your LUA_PATH
-2. Just use require "mathext" to have your Lua files be able to use the functions defined in the module.
+2. Just use `lua require "mathext"` to have your Lua files be able to use the functions defined in the module.
 
 A list of the functions defined here:
 * round(x)
