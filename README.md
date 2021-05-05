@@ -19,6 +19,7 @@ A list of the functions defined here:
 Here is an example of using the module in your lua programs:
 
   mathext = require "mathext"
-  
+  ```lua
   local num = 67.8
   print(mathext.round(67.8))    --> 68
+  ```
